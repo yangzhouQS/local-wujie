@@ -5,6 +5,8 @@ import { getWujieById, rawDocumentQuerySelector } from "./common";
 
 /**
  * 同步子应用路由到主应用路由
+ *
+ * @param iframeWindow 子应用的 window 对象
  */
 export function syncUrlToWindow(iframeWindow: Window): void {
   const { sync, id, prefix } = iframeWindow.__WUJIE;
