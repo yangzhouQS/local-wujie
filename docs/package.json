@@ -13,7 +13,7 @@
   "author": "yiludege,erkelost",
   "license": "ISC",
   "devDependencies": {
-    "vite": "3.0.9",
+    "vite": "6.4.3",
     "@documate/vue": "^0.2.3",
     "vitepress": "1.0.0-alpha.60"
   },
